@@ -1,0 +1,70 @@
+[{
+    "faculty": "humanities",
+    "courses": [
+        {
+            "course": "English",
+            "students": [
+                {
+                    "first": "Mary",
+                    "last": "Smith",
+                    "email": "mary_smith@gmail.com"
+                },
+                {
+                    "first": "Ann",
+                    "last": "Jones",
+                    "email": "ann_jones@gmail.com"
+                }
+            ]
+        },
+        {
+            "course": "History",
+            "students": [
+                {
+                    "first": "Ann",
+                    "last": "Jones",
+                    "email": "ann_jones@gmail.com"
+                },
+                {
+                    "first": "John",
+                    "last": "Taylor",
+                    "email": "john_taylor@gmail.com"
+                }
+            ]
+        }
+    ]
+},
+{
+    "faculty": "science",
+    "courses": [
+        {
+            "course": "Physics",
+            "students": [
+                {
+                    "first": "Anil",
+                    "last": "Singh",
+                    "email": "anil_singh@gmail.com"
+                },
+                {
+                    "first": "Amisha",
+                    "last": "Patel",
+                    "email": "amisha_patel@gmail.com"
+                }
+            ]
+        },
+        {
+            "course": "Chemistry",
+            "students": [
+                {
+                    "first": "John",
+                    "last": "Taylor",
+                    "email": "john_taylor@gmail.com"
+                },
+                {
+                    "first": "Anil",
+                    "last": "Singh",
+                    "email": "anil_singh@gmail.com"
+                }
+            ]
+        }
+    ]
+}]
