@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cv:cv xmlns:cv="urn:cv">
+    
+    <cv:person>
+        <cv:detail>
+            <cv:item name="name" value="Abel Braaksma"/>
+            <cv:item name="birth-date" value="April 3, 1974"/>
+            <cv:item name="address" value="Schellingwouderdijk 185"/>
+            <cv:item name="city" value="Amsterdam"/>
+            <cv:item name="nationality" value="Dutch"/>
+        </cv:detail>
+    </cv:person>
+    <cv:summary>
+        <cv:para>
+            Motivated self-starter and experienced enterprise software developer with over 20 
+            years professional expertise. Analytical and creative thinker. Proactive and result-
+            oriented leader adept in mentoring and motivating staff. Effective customer-oriented 
+            communicator.  
+        </cv:para>
+        <cv:para>
+            Originally a generalist with experience ranging from x86 assembly languages via C++ 
+            to Java and C#. Currently a specialist in .NET, C#, F# and XML technologies. Wide 
+            experience in related technologies like MVC 4, Razor, WCF. Prefers development 
+            techniques using TDD, with solid continuous integration, build servers, unit and UAC 
+            tests. 
+        </cv:para>
+        <cv:para>
+            Specialist in applying XML related technologies, member of the XSLT, XQuery and 
+            XPath working groups at W3C, implementor, designer and architect behind Exselt, an 
+            XSLT compiler/processor. Speaker at several conferences, including XML London and 
+            XML Prague, primarily on XSLT, XML streaming and higher-order functions. 
+        </cv:para>
+    </cv:summary>
+    <cv:experience>
+        <cv:job from="2011-03">
+            <cv:title>Independent Software Architect and consultant </cv:title>
+            <cv:company name="Exselt BV i.o. (own development company)" city="Amsterdam" country="The Netherlands">
+                <cv:tagline>Compiler development</cv:tagline>
+            </cv:company>
+            <cv:description>
+                <cv:para>
+                    Architecture and technical design of an XSLT 3.0 streaming processor. Development is 
+                    done in F#, C# and some applied, partially self-developed DSLs. 
+                </cv:para>
+                <cv:para>
+                    Speaker at several international conferences on behalf of Exselt and XSLT 3.0. 
+                </cv:para>
+            </cv:description>
+        </cv:job>
+        <cv:job from="2011-01">
+            <cv:title>W3C Invited Expert.</cv:title>
+            <cv:company name="Exselt BV i.o. (own development company)" city="Amsterdam" country="The Netherlands">
+                <cv:tagline>Compiler development</cv:tagline>
+            </cv:company>
+            <cv:description>
+                <cv:para>
+                    Member of the W3C.org XML standardization working groups for 
+                    XSLT, XPath, XDM and XQuery. Responsible for test-set development for the XSLWG on 
+                    XSLT 3.0. XSLT is an open W3C standard, a declarative, functional programming 
+                    language dealing with XML transformations. 
+                </cv:para>
+            </cv:description>
+        </cv:job>
+        <cv:job from="2011-12">
+            <cv:title>Light-weight CMS for PHP and .NET.</cv:title>
+            <cv:company name="Abrasoft (own consultancy company) " city="Amsterdam" country="The Netherlands">
+                <cv:tagline>Out- and insourcing consultancy firm </cv:tagline>
+            </cv:company>
+            <cv:description>
+                <cv:para>
+                    Development of a cameleon CMS that sits on top 
+                    of existing CMS’s like WordPress, DotNetNuke, LifeRay, Joomla and others. Targets 
+                    both PHP and .NET platforms, server part written in PHP and other target languages. 
+                    Relies heavily on a JSON style interface with AJAX for a smooth user experience. 
+                </cv:para>
+            </cv:description>            
+        </cv:job>
+        <cv:job from="2009-07">
+            <cv:title>Management</cv:title>
+            <cv:company name="Abrasoft (own consultancy company) " city="Amsterdam" country="The Netherlands">
+                <cv:tagline>Out- and insourcing consultancy firm </cv:tagline>
+            </cv:company>
+            <cv:description>
+                <cv:para>
+                     In the role of owner of Abrasoft, providing out-sourcing software 
+                     services, setting up and management of a development center in Ukraine with team of 
+                     10+ developers. Quality assurance, process management and architectural code-
+                     review of deliverables. 
+                </cv:para>
+            </cv:description>            
+        </cv:job>
+        <cv:job from="2007-09">
+            <cv:title>Consultancy</cv:title>
+            <cv:company name="Abrasoft (own consultancy company) " city="Amsterdam" country="The Netherlands">
+                <cv:tagline>Out- and insourcing consultancy firm </cv:tagline>
+            </cv:company>
+            <cv:description>
+                <cv:para>
+                     For a wide range of clients, from general programming tasks for the .NET 
+                     world, most specifically using C#, Rails and F# (for Exselt), typically with ASP.NET, MVC 
+                     and Razor technologies, applying tools and technologies like Entity framework, 
+                     NHibernate, XRM, Umbraco, DNN, Kendo DataViz.  Specialized in .NET + XML and 
+                     XSLT. Several projects in Java with Spring and JSF. 
+                </cv:para>
+            </cv:description>            
+        </cv:job>
+        <cv:job from="2005-10" to="2007-08">
+            <cv:title>Managing director  and senior architect </cv:title>
+            <cv:company name="Nuntia B.V. " city="Barneveld" country="The Netherlands">
+                <cv:tagline>Document management solutions </cv:tagline>
+            </cv:company>
+            <cv:description>
+                <cv:para>
+                    Management of a Dutch private limited firm, development, design and architecture of 
+                    the product Webitor, an enterprise document model and print management system, 
+                    targeting large scale insurance and utilities companies. Webitor has a many-tier 
+                    architecture and has been developed in J2EE, with a (predecessor of) JSON 
+                    communication tier, to enable a RIA frontend, heavily based on JavaScript and AJAX. 
+                </cv:para>
+            </cv:description>            
+        </cv:job>
+        <cv:job from="2004-04" to="2005-09">
+            <cv:title>ICT consultant and IT Architect </cv:title>
+            <cv:company name="Cendris Document Presentment, TPG Group " city="Den Haag" country="The Netherlands">
+                <cv:tagline>Printing and fulfilment </cv:tagline>
+            </cv:company>
+            <cv:description>
+                <cv:para>
+                    Presenting and developing architecture of inter-business communication channels 
+                    between Cendris and its large scale clients. Worked with top-50 companies in The 
+                    Netherlands for disclosing streaming data of their document management systems to 
+                    Cendris’s print systems. A typical architecture involved StreamServe with XML, XSLT for 
+                    transformation to suitable data format and XSL-FO for preprinting. Expanding the 
+                    architecture to a SOA ESB environment. 
+                </cv:para>
+            </cv:description>            
+        </cv:job>
+        <cv:job from="2002-07" to="2004-03">
+            <cv:title>Senior analyst / programmer </cv:title>
+            <cv:company name="Privver B.V., part of TPG Group " city="Leidschendam" country="The Netherlands">
+                <cv:tagline>Physical-to-digital </cv:tagline>
+            </cv:company>
+            <cv:description>
+                <cv:para>
+                    Disclosing legacy data streams of Dutch banks and insurance companies to Privver’s 
+                    business-to-consumer online digitalised invoicing system, meant to replace paper 
+                    invoicing. Currently, this system has been integrated into banking frontends of 
+                    companies like ING and ABN-AMRO. Tasks included data transformation using 
+                    proprietary software, XSLT and XML technologoies. 
+                    Responsible for a group of eight developers. 
+                </cv:para>
+            </cv:description>            
+        </cv:job>
+        <cv:job from="2001-07" to="2002-07">
+            <cv:title>Independent consultant</cv:title>
+            <cv:company name="Metacarpus (own consultancy company)" city="Amsterdam" country="The Netherlands">
+                <cv:tagline>IT Consultancy </cv:tagline>
+            </cv:company>
+            <cv:description>
+                <cv:para>
+                    Implemented, coordinated and planned various projects, mainly Java and C++, 
+                    including redevelopment of parts of the General Ledger application of RevChain 
+                    Commerce, for Daleen and their client FLAG Telecom. 
+                </cv:para>
+            </cv:description>            
+        </cv:job>
+        <cv:job from="2000-08" to="2001-06">
+            <cv:title>Software architect </cv:title>
+            <cv:company name="12Bsure B.V. " city="Hilversum" country="The Netherlands">
+                <cv:tagline>Inter-day stock and options trading systems </cv:tagline>
+            </cv:company>
+            <cv:description>
+                <cv:para>
+                    Architected, designed and co-developed one of the first fully functional high-
+                    availability online inter-day stock/futures/warrants/options trading system for the 
+                    Dutch stock exchange, EuroNext. Developed in Java for the CORBA connection and 
+                    backend and .NET and C++ for the Windows front-end. 
+                </cv:para>
+            </cv:description>            
+        </cv:job>
+        <cv:job from="1999-11" to="2000-07">
+            <cv:title>Senior J2EE developer </cv:title>
+            <cv:company name="Netspanning B.V." city="Amsterdam" country="The Netherlands">
+                <cv:tagline>IT Consultancy </cv:tagline>
+            </cv:company>
+            <cv:description>
+                <cv:para>
+                    Co-developed a comprehensive reservation system for the Amsterdam-based 
+                    international exhibition and congress center, RAI. It allows participating companies to 
+                    compose unique reservation forms graphically, while allowing a fully automatic 
+                    processing of the orders and reservations. 
+                    Developed several other systems for clients of Netspanning. 
+                </cv:para>
+            </cv:description>            
+        </cv:job>
+        <cv:job from="1997-04" to="1999-10">
+            <cv:title>Internet Application Developer </cv:title>
+            <cv:company name="De Zaak B.V. " city="Haarlem" country="The Netherlands">
+                <cv:tagline>Support, legal advice and tooling for small to medium businesses </cv:tagline>
+            </cv:company>
+            <cv:description>
+                <cv:para>
+                    Developed and managed De Zaak Internet, an interactive online system that offers 
+                    financial and business support to small &amp; medium business enterprises. 
+                    Responsible for the website of website of De Zaak. 
+                </cv:para>
+            </cv:description>            
+        </cv:job>
+    </cv:experience>
+    <cv:certifications>
+        <cv:certification>
+            StreamServe Advanced Course 
+        </cv:certification>
+        <cv:certification>
+            SilverStream Developer 
+        </cv:certification>
+        <cv:certification>
+            J2EE Internet Application Developer 
+        </cv:certification>
+    </cv:certifications>
+    <cv:professional-activities>
+        <cv:activity >
+            Invited Expert of the standardization committee W3C for XML related standards of XSLT 
+            3.0, XPath 3.0, XQuery 3.0 and XDM 3.0.
+        </cv:activity>
+    </cv:professional-activities>
+    <cv:educations>
+        <cv:education study="Study of Information Technology" school="University of Amsterdam" city="Amsterdam" country="The Netherlands"  from="1993" to="1996"/>
+        <cv:education study="Voortgezet Wetenschappelijk Onderwijs (VWO, Dutch grammar school)" school="Cornelis Drebbel College" city="Alkmaar" country="The Netherlands" from="1992" to="1993"/>            
+        <cv:education study="Vrije School (secondary school, Steiner Education) " city="Bergen NH" school="Adriaan Roland Holstschool" country="The Netherlands" from="1986" to="1991"/>        
+    </cv:educations>
+    <cv:skills>
+        <cv:skill>C# 4.0+</cv:skill>
+        <cv:skill>F# 3.0+ </cv:skill>
+        <cv:skill>ASP.NET, MVC </cv:skill>
+        <cv:skill>(D)COM, ActiveX </cv:skill>
+        <cv:skill>Java, J2EE, JSP, JSF </cv:skill>
+        <cv:skill>CORBA</cv:skill>
+        <cv:skill>x86 Assembly Language </cv:skill>
+        <cv:skill>C++, C </cv:skill>
+        <cv:skill>Perl, PHP, Python</cv:skill>
+        <cv:skill>JavaScript</cv:skill>
+        <cv:skill>HTML 5 </cv:skill>
+        <cv:skill>CSS 2.1, 3.0 </cv:skill>
+        <cv:skill>XSLT 2.0, 3.0 </cv:skill>
+        <cv:skill>XQuery 3.0 </cv:skill>
+        <cv:skill>XPath 3.0, XDM 3.0 </cv:skill>
+        <cv:skill>XML</cv:skill>
+        <cv:skill>ESB Concepts </cv:skill>
+        <cv:skill>JSON, REST </cv:skill>
+        <cv:skill>DocBook</cv:skill>
+        <cv:skill>Schematron</cv:skill>
+        <cv:skill>RelaxNG</cv:skill>
+        <cv:skill>XSD</cv:skill>
+        <cv:skill>Design Patterns </cv:skill>
+        <cv:skill>Technical Writing </cv:skill>
+        <cv:skill>Programming concepts </cv:skill>
+        <cv:skill>OO Concepts </cv:skill>
+        <cv:skill>UML</cv:skill>
+    </cv:skills>
+    <cv:languages>
+        <cv:language lang="nl-NL" listening="native" reading="native" interaction="native" production="native" writing="native"/>
+        <cv:language lang="en-GB" listening="C2" reading="C2" interaction="C2" production="C2" writing="C2"/>
+        <cv:language lang="de-DE" listening="C1" reading="C1" interaction="B2" production="B2" writing="B1"/>
+    </cv:languages>
+    <cv:additional>
+        <cv:competency name="Social and organisational competencies">
+            <cv:para>
+                Communicative, both team-player and independent worker; experienced in multi-
+                cultural working environments, proven lecturer and speaker.
+            </cv:para>
+            <cv:para>
+                Creative and initiative worker, well-versed in bridging business and technical 
+                communication; strong binding capacities as a leader.
+            </cv:para>
+        </cv:competency>
+        <cv:competency name="Other interests">
+            <cv:para>
+                Piano, sports, sailing, traveling, reading 
+            </cv:para>
+        </cv:competency>
+        <cv:competency name="Driving license">
+            <cv:para>B</cv:para>
+        </cv:competency>
+    </cv:additional>
+</cv:cv>

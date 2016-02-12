@@ -1,0 +1,126 @@
+
+                   * {
+                       font-family: Lucida Sans, Arial, Helvetica, sans-serif;
+                       font-size: 10.5pt;
+                   }
+                   th h2 {
+                       font-size: 1.7em;
+                   }
+                   th h1 {
+                       font-size: 2.5em;
+                       font-weight: bold;
+                       text-align: left;
+                       margin: 2.4em 0 3em .3em;
+                   }
+                   table {
+                       border-collapse: collapse;
+                       margin-top: 0;
+                   }
+                   body > table {
+                       border-collapse: collapse;
+                       margin-top: 3em;
+                   }
+                   td, th {
+                       vertical-align: top;
+                       padding-top: .1em;
+                   }
+                   th h3 {
+                       font-size: 1.5rem;
+                       margin-top: 0.5em;
+                       margin-bottom: 0;
+                   }
+                   p.intro {
+                       padding-op: .5em;
+                   }
+                   body > table > * > tr > td:last-child {
+                       padding-left: 1em;
+                       width: 600px;
+                   }
+                   body > table > * > tr > td:first-child,
+                   body > table > * > tr > th:first-child {
+                       border-right: 1px solid #000;
+                       width: 260px;
+                       text-align: right;
+                       padding-right: 1em;
+                       vertical-align: top;
+                   } 
+                   p.header, p.study {
+                       font-weight: bold;
+                       margin-bottom: 0;
+                   }
+                   p.header + p,
+                   p.study + p{
+                       margin-top:0.2em;
+                   }
+                   p.emph {
+                       margin-top: 0.2em;
+                       margin-bottom: 0;
+                       font-style:italic;
+                   }
+                   p.cert {
+                       margin-top: 0.3em;
+                       margin-bottom: 0;
+                   }
+                   tr.section td {
+                       padding-top: 2em;
+                   }
+                   tr.section td p:first-child {
+                       margin-top: 1em;
+                   }
+                   tr.section th {
+                       padding-top: 2em;
+                   }
+                   div {
+                       float: left;
+                       width: 33%;
+                   }
+                   p.lang-first {
+                       height: 4.0em;
+                   }
+                   table.lang td {
+                       border: 1px solid lightgrey;
+                       text-align:center;
+                       vertical-align:middle;
+                   }
+                   tr.lang.later table.lang {
+                       margin-top: -4px;       /* admittedly a bit of hack, this is a good reason why I should use bootstrap instead */
+                       border-collapse: collapse;
+                   }
+                   
+                   table.lang tbody td:nth-child(3),
+                   table.lang tbody td:nth-child(5),
+                   table.lang tbody td:nth-child(7),
+                   table.lang tbody td:nth-child(9),
+                   table.lang tbody td:first-child {
+                       width: 30px;
+                       font-size: 8px;
+                       height: 50px;
+                   }
+                   
+                   table.lang tbody td:nth-child(2),
+                   table.lang tbody td:nth-child(4),
+                   table.lang tbody td:nth-child(6),
+                   table.lang tbody td:nth-child(8),
+                   table.lang tbody td:last-child {
+                       width: 90px;
+                       font-size: 8px;
+                       height: 50px;
+                   }
+                   
+                   table.lang thead tr:first-child td {
+                       font-weight: bold;
+                       font-size: 1.1rem;
+                   }
+                   table.lang thead td {
+                       padding: 4px;                       
+                   }
+                   
+                   tfoot th {
+                       text-align: left;
+                       padding: 1em;
+                   }
+                   
+                   div.skill {
+                       font-size:12px;
+                       padding: 0.3em 0 0 0;
+                   }

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+    
+    <xs:element name="document" type="documentType">
+        
+    </xs:element>
+    
+    <xs:complexType name="documentType">
+        <xs:sequence>
+            <xs:element name="header" type="xs:string" />
+            <xs:element name="section" type="sectionType" maxOccurs="unbounded" minOccurs="0"/>
+        </xs:sequence>
+    </xs:complexType>
+    
+    <xs:complexType name="sectionType">
+        <xs:choice>
+            <xs:sequence maxOccurs="unbounded">
+                <xs:element name="row" type="rowType"  maxOccurs="unbounded" minOccurs="0"/>
+                <xs:element name="section" type="sectionType"  maxOccurs="unbounded" minOccurs="0"/>
+            </xs:sequence>
+        </xs:choice>
+        <xs:attribute name="title"/>
+    </xs:complexType>
+    
+    <xs:complexType name="rowType">
+        <xs:sequence>
+            <xs:element name="cell" type="cellType"  maxOccurs="unbounded" minOccurs="0"/>
+        </xs:sequence>
+        <xs:attribute name="type" />
+    </xs:complexType>
+    
+    <xs:complexType name="cellType" mixed="true">        
+        <xs:sequence>
+            <xs:element name="para" type="paraType"  maxOccurs="unbounded" minOccurs="0"/>
+        </xs:sequence>
+        <xs:attribute name="type" />
+    </xs:complexType>
+    
+    <xs:complexType name="paraType">
+        <xs:complexContent mixed="true">
+            <xs:restriction base="xs:anyType">
+                <xs:attribute name="type" />
+            </xs:restriction>
+        </xs:complexContent>
+    </xs:complexType>
+</xs:schema>

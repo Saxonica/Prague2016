@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified"
+    targetNamespace="urn:cv" xmlns:cv="urn:cv">
+
+    <xs:element name="cv" type="cv:cvType"/>
+    
+    <xs:complexType name="cvType">
+        <xs:sequence>
+            <xs:element name="person" type="cv:personType"/>
+            <xs:element name="summary" type="cv:textType"/>
+            <xs:element name="experience" type="cv:experienceType"/>
+            <xs:sequence maxOccurs="1" minOccurs="0">
+                <xs:element name="certifications" type="cv:certificationsType"/>
+            </xs:sequence>
+            <xs:sequence maxOccurs="1" minOccurs="0">
+                <xs:element name="professional-activities" type="cv:professionalActivitiesType"
+                    minOccurs="0"/>
+                <xs:element name="educations" type="cv:educationsType" minOccurs="0"/>
+                <xs:element name="skills" type="cv:skillsType" minOccurs="0"/>
+                <xs:element name="languages" type="cv:languagesType" minOccurs="1"/>
+                <xs:element name="additional" type="cv:additionalType" minOccurs="0" />
+            </xs:sequence>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="personType">
+        <xs:sequence maxOccurs="unbounded">
+            <xs:element name="detail" type="cv:nameValue"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="textType">
+        <xs:sequence maxOccurs="unbounded">
+            <xs:element name="para" type="cv:paraType"> </xs:element>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:simpleType name="paraType">
+        <xs:restriction base="xs:string"/>
+    </xs:simpleType>
+
+    <xs:simpleType name="languageType">
+        <xs:restriction base="xs:language"/>
+    </xs:simpleType>
+
+    <xs:complexType name="languagesType">
+        <xs:sequence>
+            <xs:element name="language" minOccurs="1" maxOccurs="unbounded">
+                <xs:complexType>
+                    <xs:attributeGroup ref="cv:langAttribs"/>
+                </xs:complexType>
+            </xs:element>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:attributeGroup name="langAttribs">
+        <xs:attribute name="lang" type="cv:languageType" use="required"/>
+        <xs:attribute name="listening" type="cv:langProficiency" use="required"/>
+        <xs:attribute name="reading" type="cv:langProficiency" use="required"/>
+        <xs:attribute name="interaction" type="cv:langProficiency" use="required"/>
+        <xs:attribute name="production" type="cv:langProficiency" use="required"/>
+        <xs:attribute name="writing" type="cv:langProficiency" use="required"/>
+    </xs:attributeGroup>
+
+    <xs:attributeGroup name="periodAttributes">
+        <xs:attribute name="from" type="xs:gYearMonth" use="required"/>
+        <xs:attribute name="to" type="xs:gYearMonth"/>
+    </xs:attributeGroup>
+
+    <xs:complexType name="jobType">
+        <xs:sequence minOccurs="1">
+            <xs:element name="title" type="cv:paraType"/>
+            <xs:element name="company" type="cv:companyType"/>
+            <xs:element name="description" type="cv:textType"/>
+        </xs:sequence>
+        <xs:attributeGroup ref="cv:periodAttributes"/>
+    </xs:complexType>
+
+    <xs:complexType name="experienceType">
+        <xs:sequence maxOccurs="unbounded">
+            <xs:element name="job" type="cv:jobType"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="companyType">
+        <xs:sequence minOccurs="0">
+            <xs:element name="tagline" type="cv:paraType"/>
+        </xs:sequence>
+        <xs:attributeGroup ref="cv:nameAttribs"/>
+        <xs:attributeGroup ref="cv:simpleAddressAttribs"/>
+    </xs:complexType>
+
+    <xs:complexType name="certificationsType">
+        <xs:sequence maxOccurs="unbounded">
+            <xs:element name="certification" type="cv:paraType"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="professionalActivitiesType">
+        <xs:sequence maxOccurs="unbounded">
+            <xs:element name="activity" type="cv:paraType"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="educationsType">
+        <xs:sequence maxOccurs="unbounded">
+            <xs:element name="education" type="cv:educationType"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="skillsType">
+        <xs:sequence maxOccurs="unbounded">
+            <xs:element name="skill" type="cv:paraType"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="educationType">
+        <xs:attributeGroup ref="cv:simpleAddressAttribs"/>
+        <xs:attributeGroup ref="cv:studyAttribs"/>
+    </xs:complexType>
+
+    <xs:complexType name="nameValue">
+        <xs:sequence maxOccurs="unbounded">
+            <xs:element name="item">
+                <xs:complexType>
+                    <xs:attribute name="name" type="cv:personDetailsEnum" use="required"/>
+                    <xs:attribute name="value" type="xs:string"/>
+                </xs:complexType>
+            </xs:element>
+        </xs:sequence>
+    </xs:complexType>
+    
+    <xs:complexType name="additionalType">
+        <xs:sequence maxOccurs="unbounded">
+            <xs:element name="competency">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element name="para" type="cv:paraType" maxOccurs="unbounded"/>
+                    </xs:sequence>
+                    <xs:attributeGroup ref="cv:nameAttribs"/>
+                </xs:complexType>
+            </xs:element>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:simpleType name="personDetailsEnum">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="name"/>
+            <xs:enumeration value="address"/>
+            <xs:enumeration value="city"/>
+            <xs:enumeration value="birth-date"/>
+            <xs:enumeration value="nationality"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="langProficiency">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="native"/>
+            <xs:enumeration value="C1"/>
+            <xs:enumeration value="C2"/>
+            <xs:enumeration value="B1"/>
+            <xs:enumeration value="B2"/>
+            <xs:enumeration value="A1"/>
+            <xs:enumeration value="A2"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:attributeGroup name="simpleAddressAttribs">
+        <xs:attribute name="city" type="xs:string" use="required"/>
+        <xs:attribute name="country" type="xs:string" use="required"/>
+    </xs:attributeGroup>
+
+    <xs:attributeGroup name="nameAttribs">
+        <xs:attribute name="name" type="xs:string" use="required"/>
+    </xs:attributeGroup>
+
+    <xs:attributeGroup name="studyAttribs">
+        <xs:attribute name="study" type="xs:string" use="required"/>
+        <xs:attribute name="school" type="xs:string" use="required"/>
+        <xs:attribute name="from" type="xs:gYear" use="required"/>
+        <xs:attribute name="to" type="xs:gYear" use="optional"/>
+    </xs:attributeGroup>
+</xs:schema>

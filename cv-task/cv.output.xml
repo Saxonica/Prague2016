@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document>
+   <header>Abel Braaksma</header>
+   <section title="Head">
+      <row type="name">
+         <cell>Full name</cell>
+         <cell>Abel Braaksma</cell>
+      </row>
+      <row type="birth-date">
+         <cell>Date of birth</cell>
+         <cell>April 3, 1974</cell>
+      </row>
+      <row type="address">
+         <cell>Address</cell>
+         <cell>Schellingwouderdijk 185</cell>
+      </row>
+      <row type="city">
+         <cell>City</cell>
+         <cell>Amsterdam</cell>
+      </row>
+      <row type="nationality">
+         <cell>Nationality</cell>
+         <cell>Dutch</cell>
+      </row>
+   </section>
+   <section title="Summary">
+      <row>
+         <cell type="header">Summary</cell>
+         <cell><para type="text">
+            Motivated self-starter and experienced enterprise software developer with over 20 
+            years professional expertise. Analytical and creative thinker. Proactive and result-
+            oriented leader adept in mentoring and motivating staff. Effective customer-oriented 
+            communicator.  
+        </para><para type="text">
+            Originally a generalist with experience ranging from x86 assembly languages via C++ 
+            to Java and C#. Currently a specialist in .NET, C#, F# and XML technologies. Wide 
+            experience in related technologies like MVC 4, Razor, WCF. Prefers development 
+            techniques using TDD, with solid continuous integration, build servers, unit and UAC 
+            tests. 
+        </para><para type="text">
+            Specialist in applying XML related technologies, member of the XSLT, XQuery and 
+            XPath working groups at W3C, implementor, designer and architect behind Exselt, an 
+            XSLT compiler/processor. Speaker at several conferences, including XML London and 
+            XML Prague, primarily on XSLT, XML streaming and higher-order functions. 
+        </para></cell>
+      </row>
+   </section>
+   <section title="Experience">
+      <row>
+         <cell type="header">Experience</cell>
+         <cell type="empty"/>
+      </row>
+      <row>
+         <cell><para>since Mar 2011</para></cell>
+         <cell><para type="header">Independent Software Architect and consultant </para><para type="text">
+                    Architecture and technical design of an XSLT 3.0 streaming processor. Development is 
+                    done in F#, C# and some applied, partially self-developed DSLs. 
+                 
+                    Speaker at several international conferences on behalf of Exselt and XSLT 3.0. 
+                </para><para type="emph">Exselt BV i.o. (own development company)</para><para type="emph">Amsterdam, The Netherlands</para><para type="text tagline">Compiler development</para></cell>
+      </row>
+      <row>
+         <cell><para>since Jan 2011</para></cell>
+         <cell><para type="header">W3C Invited Expert.</para><para type="text">
+                    Member of the W3C.org XML standardization working groups for 
+                    XSLT, XPath, XDM and XQuery. Responsible for test-set development for the XSLWG on 
+                    XSLT 3.0. XSLT is an open W3C standard, a declarative, functional programming 
+                    language dealing with XML transformations. 
+                </para><para type="emph">Exselt BV i.o. (own development company)</para><para type="emph">Amsterdam, The Netherlands</para><para type="text tagline">Compiler development</para></cell>
+      </row>
+      <row>
+         <cell><para>since Dec 2011</para></cell>
+         <cell><para type="header">Light-weight CMS for PHP and .NET.</para><para type="text">
+                    Development of a cameleon CMS that sits on top 
+                    of existing CMS’s like WordPress, DotNetNuke, LifeRay, Joomla and others. Targets 
+                    both PHP and .NET platforms, server part written in PHP and other target languages. 
+                    Relies heavily on a JSON style interface with AJAX for a smooth user experience. 
+                </para><para type="emph">Abrasoft (own consultancy company) </para><para type="emph">Amsterdam, The Netherlands</para><para type="text tagline">Out- and insourcing consultancy firm </para></cell>
+      </row>
+      <row>
+         <cell><para>since Jul 2009</para></cell>
+         <cell><para type="header">Management</para><para type="text">
+                     In the role of owner of Abrasoft, providing out-sourcing software 
+                     services, setting up and management of a development center in Ukraine with team of 
+                     10+ developers. Quality assurance, process management and architectural code-
+                     review of deliverables. 
+                </para><para type="emph">Abrasoft (own consultancy company) </para><para type="emph">Amsterdam, The Netherlands</para><para type="text tagline">Out- and insourcing consultancy firm </para></cell>
+      </row>
+      <row>
+         <cell><para>since Sep 2007</para></cell>
+         <cell><para type="header">Consultancy</para><para type="text">
+                     For a wide range of clients, from general programming tasks for the .NET 
+                     world, most specifically using C#, Rails and F# (for Exselt), typically with ASP.NET, MVC 
+                     and Razor technologies, applying tools and technologies like Entity framework, 
+                     NHibernate, XRM, Umbraco, DNN, Kendo DataViz.  Specialized in .NET + XML and 
+                     XSLT. Several projects in Java with Spring and JSF. 
+                </para><para type="emph">Abrasoft (own consultancy company) </para><para type="emph">Amsterdam, The Netherlands</para><para type="text tagline">Out- and insourcing consultancy firm </para></cell>
+      </row>
+      <row>
+         <cell><para>Oct 2005 ‒ Aug 2007</para></cell>
+         <cell><para type="header">Managing director  and senior architect </para><para type="text">
+                    Management of a Dutch private limited firm, development, design and architecture of 
+                    the product Webitor, an enterprise document model and print management system, 
+                    targeting large scale insurance and utilities companies. Webitor has a many-tier 
+                    architecture and has been developed in J2EE, with a (predecessor of) JSON 
+                    communication tier, to enable a RIA frontend, heavily based on JavaScript and AJAX. 
+                </para><para type="emph">Nuntia B.V. </para><para type="emph">Barneveld, The Netherlands</para><para type="text tagline">Document management solutions </para></cell>
+      </row>
+      <row>
+         <cell><para>Apr 2004 ‒ Sep 2005</para></cell>
+         <cell><para type="header">ICT consultant and IT Architect </para><para type="text">
+                    Presenting and developing architecture of inter-business communication channels 
+                    between Cendris and its large scale clients. Worked with top-50 companies in The 
+                    Netherlands for disclosing streaming data of their document management systems to 
+                    Cendris’s print systems. A typical architecture involved StreamServe with XML, XSLT for 
+                    transformation to suitable data format and XSL-FO for preprinting. Expanding the 
+                    architecture to a SOA ESB environment. 
+                </para><para type="emph">Cendris Document Presentment, TPG Group </para><para type="emph">Den Haag, The Netherlands</para><para type="text tagline">Printing and fulfilment </para></cell>
+      </row>
+      <row>
+         <cell><para>Jul 2002 ‒ Mar 2004</para></cell>
+         <cell><para type="header">Senior analyst / programmer </para><para type="text">
+                    Disclosing legacy data streams of Dutch banks and insurance companies to Privver’s 
+                    business-to-consumer online digitalised invoicing system, meant to replace paper 
+                    invoicing. Currently, this system has been integrated into banking frontends of 
+                    companies like ING and ABN-AMRO. Tasks included data transformation using 
+                    proprietary software, XSLT and XML technologoies. 
+                    Responsible for a group of eight developers. 
+                </para><para type="emph">Privver B.V., part of TPG Group </para><para type="emph">Leidschendam, The Netherlands</para><para type="text tagline">Physical-to-digital </para></cell>
+      </row>
+      <row>
+         <cell><para>Jul 2001 ‒ Jul 2002</para></cell>
+         <cell><para type="header">Independent consultant</para><para type="text">
+                    Implemented, coordinated and planned various projects, mainly Java and C++, 
+                    including redevelopment of parts of the General Ledger application of RevChain 
+                    Commerce, for Daleen and their client FLAG Telecom. 
+                </para><para type="emph">Metacarpus (own consultancy company)</para><para type="emph">Amsterdam, The Netherlands</para><para type="text tagline">IT Consultancy </para></cell>
+      </row>
+      <row>
+         <cell><para>Aug 2000 ‒ Jun 2001</para></cell>
+         <cell><para type="header">Software architect </para><para type="text">
+                    Architected, designed and co-developed one of the first fully functional high-
+                    availability online inter-day stock/futures/warrants/options trading system for the 
+                    Dutch stock exchange, EuroNext. Developed in Java for the CORBA connection and 
+                    backend and .NET and C++ for the Windows front-end. 
+                </para><para type="emph">12Bsure B.V. </para><para type="emph">Hilversum, The Netherlands</para><para type="text tagline">Inter-day stock and options trading systems </para></cell>
+      </row>
+      <row>
+         <cell><para>Nov 1999 ‒ Jul 2000</para></cell>
+         <cell><para type="header">Senior J2EE developer </para><para type="text">
+                    Co-developed a comprehensive reservation system for the Amsterdam-based 
+                    international exhibition and congress center, RAI. It allows participating companies to 
+                    compose unique reservation forms graphically, while allowing a fully automatic 
+                    processing of the orders and reservations. 
+                    Developed several other systems for clients of Netspanning. 
+                </para><para type="emph">Netspanning B.V.</para><para type="emph">Amsterdam, The Netherlands</para><para type="text tagline">IT Consultancy </para></cell>
+      </row>
+      <row>
+         <cell><para>Apr 1997 ‒ Oct 1999</para></cell>
+         <cell><para type="header">Internet Application Developer </para><para type="text">
+                    Developed and managed De Zaak Internet, an interactive online system that offers 
+                    financial and business support to small &amp; medium business enterprises. 
+                    Responsible for the website of website of De Zaak. 
+                </para><para type="emph">De Zaak B.V. </para><para type="emph">Haarlem, The Netherlands</para><para type="text tagline">Support, legal advice and tooling for small to medium businesses </para></cell>
+      </row>
+   </section>
+   <section>
+      <row type="section">
+         <cell type="header">Professional Certifications</cell>
+         <cell><para type="text cert">
+            StreamServe Advanced Course 
+        </para><para type="text cert">
+            SilverStream Developer 
+        </para><para type="text cert">
+            J2EE Internet Application Developer 
+        </para></cell>
+      </row>
+   </section>
+   <section>
+      <row type="section">
+         <cell type="header">Professional Activities</cell>
+         <cell><para type="text activ">
+            Invited Expert of the standardization committee W3C for XML related standards of XSLT 
+            3.0, XPath 3.0, XQuery 3.0 and XDM 3.0.
+        </para></cell>
+      </row>
+   </section>
+   <section>
+      <row type="section">
+         <cell type="header">Education</cell>
+         <cell type="empty"/>
+      </row>
+      <row type="edu">
+         <cell><para>1993 ‒ 1996</para></cell>
+         <cell><para type="study">Study of Information Technology</para><para type="text">University of Amsterdam, Amsterdam, The Netherlands</para></cell>
+      </row>
+      <row type="edu">
+         <cell><para>1992 ‒ 1993</para></cell>
+         <cell><para type="study">Voortgezet Wetenschappelijk Onderwijs (VWO, Dutch grammar school)</para><para type="text">Cornelis Drebbel College, Alkmaar, The Netherlands</para></cell>
+      </row>
+      <row type="edu">
+         <cell><para>1986 ‒ 1991</para></cell>
+         <cell><para type="study">Vrije School (secondary school, Steiner Education) </para><para type="text">Adriaan Roland Holstschool, Bergen NH, The Netherlands</para></cell>
+      </row>
+   </section>
+   <section>
+      <row type="section">
+         <cell type="header">Technical skills</cell>
+         <cell><para type="text skill">C# 4.0+</para><para type="text skill">F# 3.0+ </para><para type="text skill">ASP.NET, MVC </para><para type="text skill">(D)COM, ActiveX </para><para type="text skill">Java, J2EE, JSP, JSF </para><para type="text skill">CORBA</para><para type="text skill">x86 Assembly Language </para><para type="text skill">C++, C </para><para type="text skill">Perl, PHP, Python</para><para type="text skill">JavaScript</para><para type="text skill">HTML 5 </para><para type="text skill">CSS 2.1, 3.0 </para><para type="text skill">XSLT 2.0, 3.0 </para><para type="text skill">XQuery 3.0 </para><para type="text skill">XPath 3.0, XDM 3.0 </para><para type="text skill">XML</para><para type="text skill">ESB Concepts </para><para type="text skill">JSON, REST </para><para type="text skill">DocBook</para><para type="text skill">Schematron</para><para type="text skill">RelaxNG</para><para type="text skill">XSD</para><para type="text skill">Design Patterns </para><para type="text skill">Technical Writing </para><para type="text skill">Programming concepts </para><para type="text skill">OO Concepts </para><para type="text skill">UML</para></cell>
+      </row>
+   </section>
+   <section>
+      <row type="section">
+         <cell type="header">Additional Competencies</cell>
+         <cell type="empty"/>
+      </row>
+      <row type="lang">
+         <cell><para type="header">Native tongue</para></cell>
+         <cell><para type="text">Dutch</para></cell>
+      </row>
+      <row type="lang">
+         <cell><para type="header">English</para></cell>
+         <cell><para type="lang-proficiency">C2</para><para type="lang-proficiency-explanation">mastery or proficiency</para><para type="lang-proficiency">C2</para><para type="lang-proficiency-explanation">mastery or proficiency</para><para type="lang-proficiency">C2</para><para type="lang-proficiency-explanation">mastery or proficiency</para><para type="lang-proficiency">C2</para><para type="lang-proficiency-explanation">mastery or proficiency</para><para type="lang-proficiency">C2</para><para type="lang-proficiency-explanation">mastery or proficiency</para></cell>
+      </row>
+      <row type="lang">
+         <cell><para type="header">German</para></cell>
+         <cell><para type="lang-proficiency">C1</para><para type="lang-proficiency-explanation">effective operational proficiency</para><para type="lang-proficiency">C1</para><para type="lang-proficiency-explanation">effective operational proficiency</para><para type="lang-proficiency">B2</para><para type="lang-proficiency-explanation">upper intermediate</para><para type="lang-proficiency">B2</para><para type="lang-proficiency-explanation">upper intermediate</para><para type="lang-proficiency">B1</para><para type="lang-proficiency-explanation">threshold or intermediate</para></cell>
+      </row>
+      <row type="comp">
+         <cell><para type="header">Social and organisational competencies</para></cell>
+         <cell><para type="text">
+                Communicative, both team-player and independent worker; experienced in multi-
+                cultural working environments, proven lecturer and speaker.
+            </para><para type="text">
+                Creative and initiative worker, well-versed in bridging business and technical 
+                communication; strong binding capacities as a leader.
+            </para></cell>
+      </row>
+      <row type="comp">
+         <cell><para type="header">Other interests</para></cell>
+         <cell><para type="text">
+                Piano, sports, sailing, traveling, reading 
+            </para></cell>
+      </row>
+      <row type="comp">
+         <cell><para type="header">Driving license</para></cell>
+         <cell><para type="text">B</para></cell>
+      </row>
+   </section>
+</document>
