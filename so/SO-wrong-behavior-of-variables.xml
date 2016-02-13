@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE snap>
+<snap>
+    <page>
+        <body layout-name="finball">
+            <client>
+                <group>
+                    <cat>Jolly</cat>
+                    <dog>Bear</dog>
+                </group>
+                <data_field>
+                    <cat>
+                        <div>All about Cats</div>
+                    </cat>
+                    <dog>
+                        <div>All about Dogs</div>
+                    </dog>
+                </data_field>
+            </client>
+        </body>
+    </page>
+</snap>

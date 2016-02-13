@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bar>
+        test me!
+    </bar>
+<test>
+   <bar>
+      <zed>
+                        deeply nested
+                    </zed>
+   </bar>
+</test>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<foo>
+    <bar>
+        test me!
+    </bar>
+    <test>
+        <other>
+            <foo>
+                <bar>
+                    <zed>
+                        deeply nested
+                    </zed>
+                </bar>
+            </foo>
+        </other>
+    </test>
+</foo>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<UI-defination>
+    <class name="User">
+        <list_view>
+            <members>
+                <member name="code"/>
+                <member name="creationTS"/>
+                <member name="creator"/>
+                <member name="displayName"/>
+                <member name="emailAddress"/>
+                <member name="id"/>
+                <member name="loginId"/>
+                <member name="password"/>
+                <member name="remarks"/>
+                <member name="status"/>
+            </members>
+        </list_view>
+    </class>
+</UI-defination>

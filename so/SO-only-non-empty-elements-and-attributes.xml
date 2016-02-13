@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Parents>
+    <Parent></Parent>
+    <Parent test=""></Parent>
+    <Parent test="A"></Parent>
+    <Parent>Parent 1</Parent>
+    <Parent>
+        <Child test=""></Child>
+    </Parent>
+    <Parent>
+        <Child test="A"></Child>
+    </Parent>
+    <Parent>
+        <Child>Child 1</Child>
+    </Parent>
+    <Parent>
+        <Child>
+            <GrandChild test=""></GrandChild>
+        </Child>
+    </Parent>
+    <Parent>
+        <Child>
+            <GrandChild test="A"></GrandChild>
+        </Child>
+    </Parent>
+    <Parent>
+        <Child>
+            <GrandChild>GrandChild 1</GrandChild>
+        </Child>
+    </Parent>
+    <Parent>
+        <Child>
+            <GrandChild>
+                <GreatGrandChild test=""></GreatGrandChild>
+            </GrandChild>
+        </Child>
+    </Parent>
+    <Parent>
+        <Child>
+            <GrandChild>
+                <GreatGrandChild test="A"></GreatGrandChild>
+            </GrandChild>
+        </Child>
+    </Parent>
+    <Parent>
+        <Child>
+            <GrandChild>
+                <GreatGrandChild>GreatGrandChild 1</GreatGrandChild>
+            </GrandChild>
+        </Child>
+    </Parent>
+</Parents>

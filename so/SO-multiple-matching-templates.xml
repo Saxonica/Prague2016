@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<document>
+    <book>
+        <title>"One Title"</title>
+    </book>
+    
+    <book>
+        <title rend="italics">Another Title</title>
+    </book>
+</document>
