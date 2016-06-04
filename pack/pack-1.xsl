@@ -7,7 +7,7 @@
     exclude-result-prefixes="xs f"
     version="3.0">
     
-    <xsl:function name="f:compute-score" visibility="final" as="xs:integer">
+    <xsl:function name="f:compute-score" visibility="public" as="xs:integer">
         <xsl:param name="x" as="xs:integer"/>
         <xsl:param name="y" as="xs:integer"/>
         <xsl:sequence select="$x + $y"/>
