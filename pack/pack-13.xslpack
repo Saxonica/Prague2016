@@ -1,0 +1,53 @@
+<package xmlns="http://ns.saxonica.com/xslt/export" xmlns:fn="http://www.w3.org/2005/xpath-functions" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:vv="http://saxon.sf.net/generated-variable" xmlns:java-type="http://saxon.sf.net/java-type" dmk="TGljZW5zb3I9U2F4b25pY2EKTGljZW5zZWU9TydOZWlsIERlbHByYXR0CkNvbXBhbnk9T0VNIFNheG9uCkVtYWlsPW9uZWlsQFNheG9uaWNhLmNvbQpFZGl0aW9uPUVFClNBVD15ZXMKU0FRPXllcwpTQVY9eWVzCklzc3VlZD0yMDE1LTExLTEyClNlcmllcz1WClNlcmlhbD1WMDAwMDA2ClVzZXI9UDAwMDEKRXZhbHVhdGlvbj1ubwpFeHBpcmF0aW9uPW5ldmVyClVwZ3JhZGVEYXlzPTM2NgpNYWludGVuYW5jZURheXM9MzY2ClNpZ25hdHVyZT0zMDJEMDIxNDE2QUJCMzMxQzIzNTA2OEU5NUE4QjRFN0M3NTI2NkIyMUJEQkQwMUMwMjE1MDA4RjVFMzQ3OUMxMzRFOTI2QzJFRjczNzM0M0RFNzhGMDg4NTIyMjg4Cg==" name="http://prague2016/package-3" version="30" packageVersion="0.0.1">
+ <package name="http://prague2016/package-1" version="30" packageVersion="0.0.1">
+  <co id="0" binds="">
+   <mode onNo="TC" flags="dW" patternSlots="0"/>
+  </co>
+  <co id="1" vis="PUBLIC" binds="">
+   <function name="Q{http://localhost/fn}compute-score" line="10" module="file:/Users/mike/w3c/Prague2016/pack/pack-1.xsl" eval="7" flags="pU" as="xs:integer" slots="2">
+    <arg name="x" as="xs:integer"/>
+    <arg name="y" as="xs:integer"/>
+    <arith role="body" vn="31" baseUri="file:/Users/mike/w3c/Prague2016/pack/pack-1.xsl" ns="f=http://localhost/fn xs=http://www.w3.org/2001/XMLSchema xsl=http://www.w3.org/1999/XSL/Transform" line="13" op="+" calc="i+i">
+     <varRef name="x" slot="0"/>
+     <varRef name="y" slot="1"/>
+    </arith>
+   </function>
+  </co>
+  <overridden/>
+  <output>
+   <property name="{http://saxon.sf.net/}stylesheet-version" value="30"/>
+  </output>
+  <decimalFormat decimal-separator="46" grouping-separator="44" digit="35" minus-sign="45" percent="37" per-mille="8240" zero-digit="48" exponent-separator="101" pattern-separator="59" infinity="Infinity" NaN="NaN"/>
+ </package>
+ <co id="2" binds="">
+  <mode onNo="TC" flags="dW" patternSlots="0"/>
+ </co>
+ <co id="3" binds="">
+  <template name="Q{http://www.w3.org/1999/XSL/Transform}initial-template" flags="os" line="22" module="file:/Users/mike/w3c/Prague2016/pack/pack-3.xsl" slots="0">
+   <elem role="body" vn="31" baseUri="file:/Users/mike/w3c/Prague2016/pack/pack-3.xsl" ns="f=http://localhost/fn xs=http://www.w3.org/2001/XMLSchema xsl=http://www.w3.org/1999/XSL/Transform" line="23" name="out">
+    <valueOf flags="e">
+     <str val="51"/>
+    </valueOf>
+   </elem>
+  </template>
+ </co>
+ <co id="4" binds="">
+  <function name="Q{http://localhost/fn}compute-score" line="14" module="file:/Users/mike/w3c/Prague2016/pack/pack-3.xsl" eval="7" flags="pU" as="xs:integer" slots="2">
+   <arg name="x" as="xs:integer"/>
+   <arg name="y" as="xs:integer"/>
+   <arith role="body" vn="31" baseUri="file:/Users/mike/w3c/Prague2016/pack/pack-3.xsl" ns="f=http://localhost/fn xs=http://www.w3.org/2001/XMLSchema xsl=http://www.w3.org/1999/XSL/Transform" line="17" op="*" calc="i*i">
+    <varRef name="x" slot="0"/>
+    <varRef name="y" slot="1"/>
+   </arith>
+  </function>
+ </co>
+ <co id="5" vis="HIDDEN" binds="" base="0" dpack="http://prague2016/package-1"/>
+ <overridden>
+  <co id="6" vis="PUBLIC" binds="" base="1" dpack="http://prague2016/package-1"/>
+ </overridden>
+ <output>
+  <property name="{http://saxon.sf.net/}stylesheet-version" value="30"/>
+ </output>
+ <decimalFormat decimal-separator="46" grouping-separator="44" digit="35" minus-sign="45" percent="37" per-mille="8240" zero-digit="48" exponent-separator="101" pattern-separator="59" infinity="Infinity" NaN="NaN"/>
+</package>
+<?Σ b686605a?>
